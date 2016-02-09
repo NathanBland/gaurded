@@ -1,0 +1,33 @@
+{
+  "name": "guarded",
+  "version": "1.0.0",
+  "description": "This repository aims to be a test bed for passport.js strategies.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanBland/guarded.git"
+  },
+  "keywords": [
+    "passport.js"
+  ],
+  "author": "Nathan Bland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanBland/guarded/issues"
+  },
+  "homepage": "https://github.com/NathanBland/guarded#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.2",
+    "passport": "^0.3.2",
+    "passport-twitter": "^1.0.4"
+  }
+}
